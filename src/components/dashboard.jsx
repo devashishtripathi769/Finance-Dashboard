@@ -1,10 +1,10 @@
 import React, { useContext, useMemo } from "react";
 import { AppContext } from "../context/AppContext";
-import SummaryCards from "./SummaryCards";
-import Charts from "./Charts";
+import SummaryCards from "./summaryCards";
+import Charts from "./charts";
 import Transactions from "./transactions";
-import Insights from "./Insights";
-import RoleSwitcher from "./RoleSwitcher";
+import Insights from "./insights";
+import RoleSwitcher from "./roleSwitcher";
 
 const Dashboard = () => {
   const { transactions, role } = useContext(AppContext);
